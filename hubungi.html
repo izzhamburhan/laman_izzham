@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Izzham Koding</title>
+    <link rel="stylesheet" href="default.css">
+    <link id="theme-style" rel="stylesheet" href="">
+</head>
+<body>
+    <!-----------nav bar ----------->
+     <!-- Navbar (sit on top) -->
+   <div class="nav-wrapper">
+
+    <!-- Link around dots-wrapper added after tutorial video -->
+    <a href="index.html">
+        <div class="dots-wrapper">
+            <div id="dot-1" class="browser-dots"></div>
+            <div id="dot-2" class="browser-dots"></div>
+            <div id="dot-3" class="browser-dots"></div>
+        </div>
+    </a>
+    <a href="tentang.html" class="w3-bar-item w3-button w3-hide-small teks"><i class="fa fa-user"></i> TENTANG SAYA</a>
+  <a href="portfolio.html" class="w3-bar-item w3-button w3-hide-small teks"><i class="fa fa-th"></i> PORTFOLIO</a>
+  <a href="hubungi.html" class="w3-bar-item w3-button w3-hide-small teks"><i class="fa fa-envelope"></i> HUBUNGI</a>
+
+    <ul id="navigation">
+        <li><a href="#">IzzhamKoding.io</a></li>
+
+    </ul>
+</div>
+      
+    <section class="s2">
+        <div class="main-container">
+            <h3 style="text-align: center;">Mari Berkenalan</h3>
+
+            <form action="" id="contact-form">
+                <label for="">Nama</label>
+                <input onfocus="this.value=''" value="nama" class="input-field" style="margin-bottom: 20px;" type="text" name="name"> 
+
+                <label for="">Jantina</label>
+                <div>
+                    
+                    <label for="">Lelaki</label>
+                <input class="" type="radio" name="jantina">
+                <label for="">Perempuan</label>
+                <input style="margin-bottom: 20px;" type="radio" name="jantina">
+                </div>
+                 
+                <label for="">Tajuk</label>
+                <input class="input-field" style="margin-bottom: 20px;" type="text" name="subject"> 
+              
+                <label for="">Sila Pilih</label>
+                <div style="margin-bottom: 20px;">
+                    <select name="" id="" class="input-field">
+                        <option value="">Pekerja</option>
+                        <option value="" >Pelajar</option>
+                    </select>
+                </div>
+
+                <label for="">Email</label>
+                <input class="input-field" style="margin-bottom: 20px;"type="text" name="email"> 
+
+                <label for="">Berkenaan</label>
+                <div>
+                    <label for="">Programming</label>
+                <input class="" type="checkbox" name="bidang">
+                <label for="">Bisnes</label>
+                <input type="checkbox" name="bidang">
+                <label for="">Pelaburan</label>
+                <input class="" type="checkbox" name="bidang">
+                <label for="">Rekaan</label>
+                <input style="margin-bottom: 20px;" type="checkbox" name="bidang">
+                </div>
+
+                <label for="">Mesej</label>
+                <textarea name="message" class="input-field"></textarea>
+                <input id="submit-btn" style="border-radius: 30px; text-align: center;" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
